@@ -2,8 +2,8 @@
   "type": "micro",
   "wake_word": "Hey Kaba",
   "author": "Kaba Labs, Inc",
-  "website": "https://kaba.ai/",
-  "model": "https://raw.githubusercontent.com/kaba-labs/hey-kaba/refs/heads/main/hey_kaba.tflite",
+  "website": "https://kaba.ai",
+  "model": "hey_kaba.tflite",
   "trained_languages": ["en"],
   "version": 2,
   "micro": {
