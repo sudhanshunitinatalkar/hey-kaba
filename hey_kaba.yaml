@@ -1,7 +1,7 @@
 substitutions:
   name: hey-kaba
   friendly_name: Hey Kaba
-  micro_wake_word_model: okay_kaaba
+  micro_wake_word_model: hey_kaba
   # micro_wake_word_model: okay_nabu
 
 esphome:
@@ -353,4 +353,4 @@ micro_wake_word:
     - voice_assistant.start:
         wake_word: !lambda return wake_word;
   models:
-    - model: https://raw.githubusercontent.com/kaba-labs/hey-kaba/refs/heads/main/okay_kaaba.json
+    - model: https://raw.githubusercontent.com/kaba-labs/hey-kaba/refs/heads/main/hey_kaba.json
