@@ -5,7 +5,7 @@
   "website": "https://kaba.ai",
   "model": "hey_kaba.tflite",
   "trained_languages": ["en"],
-  "version": 2,
+  "version": 1,
   "micro": {
     "probability_cutoff": 0.5,
     "sliding_window_average_size": 10
