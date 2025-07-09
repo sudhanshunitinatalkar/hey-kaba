@@ -14,6 +14,9 @@ reload:
 	@esphome compile hey_kaba.yaml
 	@esphome upload hey_kaba.yaml
 
+log:
+	@esphome logs hey_kaba.yaml
+
 clean:
 	@rm -rf cache/
 
