@@ -354,4 +354,7 @@ micro_wake_word:
     - voice_assistant.start:
         wake_word: !lambda return wake_word;
   models:
+    - model: okay_nabu
+    - model: hey_mycroft
+    - model: hey_jarvis
     - model: https://raw.githubusercontent.com/kaba-labs/hey-kaba/refs/heads/main/hey_kaba.json
