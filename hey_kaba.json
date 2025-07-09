@@ -3,11 +3,7 @@
   "wake_word": "Hey Kaba",
   "author": "Kaba Labs, Inc",
   "website": "https://kaba.ai",
-  "model": "./hey_kaba.tflite",
-  "trained_languages": ["en"],
+  "model": "hey_kaba.tflite",
   "version": 1,
-  "micro": {
-    "probability_cutoff": 0.5,
-    "sliding_window_average_size": 10
-  }
+  "micro": {}
 }
