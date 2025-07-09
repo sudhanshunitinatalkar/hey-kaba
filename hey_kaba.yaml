@@ -355,6 +355,6 @@ micro_wake_word:
         wake_word: !lambda return wake_word;
   models:
     - model: okay_nabu
-    - model: hey_mycroft
-    - model: hey_jarvis
-    - model: https://raw.githubusercontent.com/kaba-labs/hey-kaba/refs/heads/main/computer.json
+    # - model: hey_mycroft
+    # - model: hey_jarvis
+    - model: https://github.com/kaba-labs/hey-kaba/blob/fe30259f06a80c5529dff1ba6b21edcb2e43e1ee/computer.json
