@@ -1,7 +1,8 @@
 substitutions:
   name: hey-kaba
   friendly_name: Hey Kaba
-  micro_wake_word_model: computer
+  # micro_wake_word_model: computer
+  micro_wake_word_model: hey_kaba
   # micro_wake_word_model: okay_nabu
 
 esphome:
@@ -358,3 +359,4 @@ micro_wake_word:
     # - model: hey_mycroft
     # - model: hey_jarvis
     - model: https://raw.githubusercontent.com/kaba-labs/hey-kaba/refs/heads/main/computer.json
+    - model: https://raw.githubusercontent.com/kaba-labs/hey-kaba/refs/heads/main/hey_kaba.json
